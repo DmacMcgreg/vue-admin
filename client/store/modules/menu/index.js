@@ -4,6 +4,7 @@ import charts from './charts'
 import uifeatures from './uifeatures'
 import components from './components'
 import tables from './tables'
+import kabbalah from './kabbalah'
 
 // show: meta.label -> name
 // name: component name
@@ -30,6 +31,7 @@ const state = {
       },
       component: lazyLoading('axios', true)
     },
+    kabbalah,
     charts,
     uifeatures,
     components,

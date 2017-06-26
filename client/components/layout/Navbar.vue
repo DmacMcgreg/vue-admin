@@ -10,11 +10,12 @@
         <div class="nav-center">
           <a class="nav-item hero-brand" href="/">
             <img src="~assets/logo.svg" :alt="pkginfo.description">
-            <tooltip :label="'v' + pkginfo.version" placement="right" type="success" size="small" :no-animate="true" :always="true" :rounded="true">
-              <div class="is-hidden-mobile">
-                <span class="vue">Vue</span><strong class="admin">Admin</strong>
-              </div>
-            </tooltip>
+            <div class="is-hidden-mobile">
+              <span class="vue">Gnostic</span><strong class="admin">World</strong>
+            </div>
+            <!--<tooltip :label="'v' + pkginfo.version" placement="right" type="success" size="small" :no-animate="true" :always="true" :rounded="true">
+            
+            </tooltip>-->
           </a>
         </div>
         <div class="nav-right is-flex">
