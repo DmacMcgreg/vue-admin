@@ -3,7 +3,7 @@ import lazyLoading from './lazyLoading'
 export default {
     meta: {
         label   : 'Kabbalah',
-        icon    : 'fa-mercury',
+        icon    : 'fa-calculator',
         expanded: false
     },
 

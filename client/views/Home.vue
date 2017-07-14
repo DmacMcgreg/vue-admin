@@ -8,10 +8,7 @@
 
     <p>
       <strong>{{ description }}</strong>,
-      <a :href="homepage">Live Demo</a>
     </p>
-
-    <p>Supports Vue 2.0 and Bulma 0.3!</p>
   </div>
 </template>
 
@@ -19,7 +16,10 @@
 export default {
 
   data () {
-    return this.$store.state.pkg
+    return {
+        ...this.$store.state.pkg,
+        
+    }
   }
 
 }

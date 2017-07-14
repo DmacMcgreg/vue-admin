@@ -1,9 +1,9 @@
 {
-  "name": "vue-admin",
-  "version": "0.1.12",
-  "description": "Vue Admin Panel Framework",
-  "repository": "vue-bulma/vue-admin",
-  "homepage": "https://admin.vuebulma.com",
+  "name": "Gnostic.World",
+  "version": "0.1.0",
+  "description": "Learn about gnosis to discover yourself. Numerology, vocalization practices, quotes, and more!",
+  "repository": "DmacMcgreg/gnostic-site-vue-admin",
+  "homepage": "http://gnosis.world",
   "license": "MIT",
   "author": {
     "name": "Fangdun Cai",
